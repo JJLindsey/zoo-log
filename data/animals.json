@@ -135,6 +135,33 @@
         "hungry"
       ],
       "id": "13"
+    },
+    {
+      "name": "Larry",
+      "species": "lemur",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "14"
+    },
+    {
+      "name": "Larry",
+      "species": "lemur",
+      "diet": "omnivore",
+      "personalityTraits": [
+        "hungry"
+      ],
+      "id": "15"
+    },
+    {
+      "name": "Kool",
+      "species": "Koala",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "sleepy"
+      ],
+      "id": "16"
     }
   ]
 }

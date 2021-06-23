@@ -12,6 +12,10 @@ app.use(express.urlencoded({ extended:true}));
 //parse incoming JSON data
 app.use(express.json());
 
+
+//Express.js middleware that instructs server to make certain files readily available & o not gate it behind server endpoint.
+app.use(express.static('public'));
+
 function filterByQuery(query, animalsArray) {
     let personalityTraitsArray = [];
     // Note that we save the animalsArray as filteredResults here:
@@ -125,6 +129,13 @@ app.post('/api/animals', (req, res) => {
     res.json(animal);
     }
 });
+//respond with an HTML page to display in the browser
+//path module ensures finding the correct location for the HTML code to display in the browser. 
+app.get('/', (req, res) => {
+    res.sendFile(path.join(__dirname, './public/index.html'));
+});
+
+
 
 //chain listen method to server to make server listen
 app.listen(PORT, () => {
