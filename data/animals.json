@@ -162,6 +162,15 @@
         "sleepy"
       ],
       "id": "16"
+    },
+    {
+      "name": "Kool",
+      "species": "Koala",
+      "diet": "herbivore",
+      "personalityTraits": [
+        "sleepy"
+      ],
+      "id": "17"
     }
   ]
 }
