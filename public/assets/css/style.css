@@ -1,11 +1,11 @@
 :root {
-  --primary: #123859;
-  --secondary: #419fd9;
-  --tertiary: #03738c;
+  --primary: #0b5014;
+  --secondary: #0ab350;
+  --tertiary: #79c289;
   --quaternary: #8c7503;
   --quinary: #594b02;
   --light: #ffffff;
-  --dark: #272f32;
+  --dark: #062b0f;
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
   --spacing-two: calc(1rem * 0.5);
@@ -43,6 +43,7 @@ h6 {
 
 h1 {
   font-size: 2.25rem;
+  
 }
 
 h2 {
@@ -75,10 +76,16 @@ a {
 }
 
 header {
-  background-color: var(--primary);
-  background-image: url('../images/header-bg.jpg');
-  background-size: cover;
-  background-blend-mode: screen;
+  background-image: url('../images/zoo.png');
+  background: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.guide{
+  background-color: rgb(11 80 20 / 50%);
+  margin-top: 2rem;
+  border-top: 2rem;
 }
 
 nav {
